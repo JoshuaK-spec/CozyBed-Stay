@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CozyBed Stay | Boutique B&B in the Scottish Highlands</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">CozyBed <span>Stay</span></div>
+        <ul>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#booking">Book Now</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="hero-text">
+            <h1>Welcome Home</h1>
+            <p>Experience comfort and tranquility.</p>
+            <a href="#booking" class="btn">View Availability</a>
+        </div>
+    </header>
+
+    <section id="owner-intro">
+        <div class="owner-container">
+            <img src="me.jpg" alt="me" class="owner-photo">
+            <div class="owner-text">
+                <span>Your Host</span>
+                <h2>Hi, I'm Joshua</h2>
+                <p>Welcome to CozyBed Stay! I've lived in this area for 10 years and love sharing my favorite local spots with my guests. My goal is to make your stay as relaxing and comfortable as possible.</p>
+                <p class="signature">Joshua</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="rooms">
+        <h2>Our Beautiful Rooms</h2>
+        <div class="room-detail">
+
+            <div class="photo-grid">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80" alt="The Sunbeam Suite">
+                <h3>The Sunbeam Suite</h3>
+                <p>A bright, airy room with a king-size bed and garden views.</p>
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80" alt="Sunbeam Bed">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80" alt="Sunbeam Bathroom">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80" alt="Sunbeam View">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80" alt="Sunbeam Decor">
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <div class="room-detail">
+
+            <div class="photo-grid">
+                <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=600&q=80" alt="The Moonlight Room">
+                <h3>The Moonlight Room</h3>
+                <p>Cozy and quiet, perfect for a peaceful night's rest.</p>
+                <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=600&q=80" alt="Moonlight Bed">
+                <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=600&q=80" alt="Moonlight Desk">
+                <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=600&q=80" alt="Moonlight Bathroom">
+                <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=600&q=80" alt="Moonlight Window">
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="bg-light">
+        <h2>Book Your Stay</h2>
+        <p class="subtitle">Select your dates. <strong>Pay at Property</strong> upon arrival.</p>
+        <div class="booking-form">
+            <form id="stay-form">
+                <div class="form-group">
+                    <label>Check-in</label>
+                    <input type="date" id="checkin" required>
+                </div>
+                <div class="form-group">
+                    <label>Check-out</label>
+                    <input type="date" id="checkout" required>
+                </div>
+                <div class="form-group">
+                    <label>Room Type</label>
+                    <select id="room-select">
+                        <option value="sunbeam">The Sunbeam Suite</option>
+                        <option value="moonlight">The Moonlight Room</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Your Name</label>
+                    <input type="text" id="guest-name" required>
+                </div>
+                <div class="form-group">
+                    <label>Your Email</label>
+                    <input type="email" id="guest-email" required>
+                </div>
+                <button type="submit" class="btn-dark">Reserve Now</button>
+            </form>
+            <div id="confirmation-msg"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Dreamy Lane, Restful Valley</p>
+                <p><i class="fas fa-phone"></i> +44 012345678</p>
+                <p><i class="fas fa-envelope"></i> hello@cozybedstay.com</p>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9815.386677924706!2d-5.046419716764591!3d58.4609483113927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x489032a6af343ea9%3A0x17906c0e63a406f!2sKinlochbervie%20High%20School!5e1!3m2!1sen!2suk!4v1776194720287!5m2!1sen!2suk"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 CozyBed Stay. All rights reserved. | Pay at Property Policy applies.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <div id="photo-modal" class="modal">
+        <span class="close-modal">&times;</span>
+
+        <a class="prev" id="prevBtn">&#10094;</a>
+        <a class="next" id="nextBtn">&#10095;</a>
+
+        <img class="modal-content" id="full-img">
+        <div id="caption"></div>
+    </div>
+
+</body>
+</html>
