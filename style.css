@@ -58,9 +58,10 @@ nav ul {
 /* Hero */
 header {
     height: 70vh;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('./images/house.jpg?v=1');
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/house.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
     display: flex;
     justify-content: center;
     align-items: center;
