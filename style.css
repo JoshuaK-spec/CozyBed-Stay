@@ -57,7 +57,7 @@ nav ul {
 
 /* Hero */
 header {
-    height: 80vh;
+    height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/house.jpg') !important;
     background-size: cover !important;
     background-position: center !important;
