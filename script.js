@@ -1,4 +1,4 @@
-<script src="https://js.stripe.com/v3/"></script>
+//<script src="https://js.stripe.com/v3/"></script>
 
 document.addEventListener('DOMContentLoaded', () => {
     const bookingForm = document.getElementById('stay-form');
