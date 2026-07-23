@@ -32,13 +32,21 @@
 
             <!-- navigation bar container-->
             <div class="nav-container">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="rooms.html">Rooms</a>
-                    <a href="breakfast.html">Breakfast</a>
-                    <a href="local-area.html">Local Area</a>
-                    <a href="contact.html">Contact Us</a>
-                    <a href="book.html">Book</a>
+                <nav class="navbar">
+                    <button class="hamburger-btn" id="mobileMenu" aria-label="Toggle Menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                    <ul id="menuLinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="breakfast.html">Breakfast</a></li>
+                        <li><a href="local-area.html">Local Area</a></li>
+                        <li><a href="book.html">Book</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+
                 </nav>
             </div>
 
@@ -51,8 +59,8 @@
             <script src="https://widgets.bookalet.co.uk/publish.js" data-bookalet="8a3f577f-e648-44ee-a2e5-bd9a0a86bf1c" data-property="59275"></script>
         </div>
     </main>
-    
-    
+
+
     <footer>
         <!--Three column split-->
         <div class="footer-row">
@@ -96,6 +104,14 @@
 
         </div>
     </footer>
+    <script>
+ const mobileMenu =document.getElementById('mobileMenu');
+ const menuLinks = document.getElementById('menuLinks');
+
+ mobileMenu.addEventListener('click', () =>{
+     menuLinks.classList.toggle('active');
+ });
+    </script>
 </body>
 
 </html>
