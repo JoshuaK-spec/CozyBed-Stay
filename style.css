@@ -693,13 +693,13 @@ header {
 
     /* Hide menu by default on mobile */
     .navbar #menuLinks {
-        display: none !important;
+        display: none;
         
     }
 
     /* Show menu when clicked */
     .navbar #menuLinks.active {
-        display: flex !important;
+        display: flex;
         
     }
     .navbar #menuLinks li {
