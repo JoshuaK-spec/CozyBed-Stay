@@ -650,16 +650,7 @@ header {
     margin-top: 25px;
 }
 
-@media screen and (max-width: 768px){
-    .nav-container nav {
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        width:100%;
-    }
-    
-}
-
+/*No toggle on large screens*/
 .hamburger-btn {
     display: none;
     background: none;
@@ -679,9 +670,39 @@ header {
     transition:all 0.3s ease;
 }
 
+#menu-links {
+    display: flex;
+    list-style:none;
+    width: 100%;
+}
+    #menu-links li {
+        border-right: 1px solid var(--orange); /* Adds a right border to each link */
+    }
+
+    #menu-links li:last-child {
+        border-right: none;
+    }
+
+
+/*Toggle on mobile screens*/
 
 @media screen and (max-width: 768px) {
     .hamburger-btn {
         display: flex;
+    }
+
+    /* Hide menu by default on mobile */
+    #menu-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* Show menu when clicked */
+    #menu-links.active {
+        display: flex;
+    }
+    #menu-links li {
+        border-right: none; /* Adds a right border to each link */
     }
 }
