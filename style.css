@@ -670,16 +670,16 @@ header {
     transition:all 0.3s ease;
 }
 
-#menu-links {
+#menuLinks {
     display: flex;
     list-style:none;
     width: 100%;
 }
-    #menu-links li {
+    #menuLinks li {
         border-right: 1px solid var(--orange); /* Adds a right border to each link */
     }
 
-    #menu-links li:last-child {
+    #menuLinks li:last-child {
         border-right: none;
     }
 
@@ -692,18 +692,19 @@ header {
     }
 
     /* Hide menu by default on mobile */
-    #menu-links {
+    #menuLinks {
         display: none;
         flex-direction: column;
         width: 100%;
     }
 
     /* Show menu when clicked */
-        #menu-links.active {
+        #menuLinks.active {
             display: flex;
             flex-direction: column;
         }
-    #menu-links li {
-        border-right: none; /* Adds a right border to each link */
-    }
+        #menuLinks li {
+            border-right: none; /* Adds a right border to each link */
+        }
+
 }
