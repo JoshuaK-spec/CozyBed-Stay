@@ -74,10 +74,11 @@ section {
     }
 
 .photo-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: flex;
     gap: 15px;
     margin-top: 1.5rem;
+   flex-direction: row;
+
 }
 
     .photo-grid img {
@@ -96,7 +97,7 @@ section {
 .divider {
     border: 0;
     border-top: 1px solid #eee;
-    margin: 4rem 0;
+    margin: 3rem 0;
 }
 
 /* Form */
@@ -724,4 +725,8 @@ header {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
     margin-top: 25px;
+}
+.rooms {
+    display: flex;
+    flex-direction: column;
 }
