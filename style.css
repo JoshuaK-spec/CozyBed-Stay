@@ -694,7 +694,7 @@ header {
     /* Hide menu by default on mobile */
     .navbar #menuLinks {
         display: none;
-        gap:20px;
+        gap:5px;
         
     }
 
