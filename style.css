@@ -147,12 +147,7 @@ input, select {
     font-size: 1rem;
 }
 
-/* Contact */
-.contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-}
+
 
 #confirmation-msg {
     margin-top: 1rem;
@@ -710,4 +705,23 @@ header {
         border-right: none; /* Adds a right border to each link */
     }
 
+}
+.about {
+    margin-top:25px;
+    border-radius: 5px;
+    background-color: lightgray;
+    box-shadow: 0 4px 6px rgba(30, 87, 138, 1.00);
+    padding: 10px 20px;
+    font-size:1.1rem;
+}
+.about .about-title {
+    font-size:1.3rem;
+}
+
+/* Contact */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 25px;
 }
