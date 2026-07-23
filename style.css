@@ -700,6 +700,8 @@ header {
     /* Show menu when clicked */
     .navbar #menuLinks.active {
         display: flex;
+        flex-direction:column;
+
         
     }
     .navbar #menuLinks li {
