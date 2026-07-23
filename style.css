@@ -693,16 +693,14 @@ header {
 
     /* Hide menu by default on mobile */
     #menuLinks {
-        display: none;
-        flex-direction: column;
-        list-style: none;
-        width: 100%;
+        display: none !important;
+        
     }
 
     /* Show menu when clicked */
     #menuLinks.active {
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        
     }
     #menuLinks li {
         border-right: none; /* Adds a right border to each link */
