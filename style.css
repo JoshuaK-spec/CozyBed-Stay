@@ -699,9 +699,10 @@ header {
     }
 
     /* Show menu when clicked */
-    #menu-links.active {
-        display: flex;
-    }
+        #menu-links.active {
+            display: flex;
+            flex-direction: column;
+        }
     #menu-links li {
         border-right: none; /* Adds a right border to each link */
     }
