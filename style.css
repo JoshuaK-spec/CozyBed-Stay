@@ -692,17 +692,17 @@ header {
     }
 
     /* Hide menu by default on mobile */
-    #menuLinks {
+    .navbar #menuLinks {
         display: none !important;
         
     }
 
     /* Show menu when clicked */
-    #menuLinks.active {
+    .navbar #menuLinks.active {
         display: flex !important;
         
     }
-    #menuLinks li {
+    .navbar #menuLinks li {
         border-right: none; /* Adds a right border to each link */
     }
 
