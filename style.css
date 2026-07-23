@@ -687,7 +687,7 @@ header {
 /*Toggle on mobile screens*/
 
 @media screen and (max-width: 768px) {
-    .hamburger-btn {
+    .navbar .hamburger-btn {
         display: flex;
     }
 
