@@ -695,16 +695,17 @@ header {
     #menuLinks {
         display: none;
         flex-direction: column;
+        list-style: none;
         width: 100%;
     }
 
     /* Show menu when clicked */
-        #menuLinks.active {
-            display: flex;
-            flex-direction: column;
-        }
-        #menuLinks li {
-            border-right: none; /* Adds a right border to each link */
-        }
+    #menuLinks.active {
+        display: flex;
+        flex-direction: column;
+    }
+    #menuLinks li {
+        border-right: none; /* Adds a right border to each link */
+    }
 
 }
