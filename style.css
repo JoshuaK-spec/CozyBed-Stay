@@ -693,19 +693,20 @@ header {
 
     /* Hide menu by default on mobile */
     .navbar #menuLinks {
-        display: none;
-        gap:5px;
-        
+        display: none;        
     }
 
     /* Show menu when clicked */
     .navbar #menuLinks.active {
         display: flex;
         flex-direction:column;
-
+        max-height:90vh;
+        overflow-y:auto; /*allows vertival scrolling*/
+        gap: 5px;
         
     }
     .navbar #menuLinks li {
+        padding: 5px 0; /*reduces top/bottom padding*/
         border-right: none; /* Adds a right border to each link */
     }
 
